@@ -190,6 +190,15 @@ body{
 #pg21{
     padding-bottom: 20px;
 }
+#pg22{
+    padding-bottom: 20px;
+}
+#pg23{
+    padding-bottom: 20px;
+}
+#pg24{
+    padding-bottom: 20px;
+}
 
 .altair{
     color: #fff;
@@ -206,4 +215,8 @@ body{
 .part26{
     color: #fff;
     padding-bottom: 20px;
+}
+.same-old{
+    font-size: x-small;
+    color: white;
 }
