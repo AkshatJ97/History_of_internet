@@ -1,0 +1,233 @@
+<html>
+<head>
+    <title> Article 1 </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/homelogo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="page1.html">ARPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">INTERNET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">BROWSER-WAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page4.html">END OF BROWSER-WAR</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page5.html">DOTCOM CRASH</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ARTICLES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="article1.html">Article 1</a>
+                            <a class="dropdown-item" href="article2.html">Article 2</a>
+                            <a class="dropdown-item" href="article3.html">Article 3</a>
+                            <a class="dropdown-item" href="article4.html">Article 4</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+<section id="at21">
+
+    <div class="row">
+        <div class="at122">
+            <img src="images/testing.jpg" class="lawrence">
+            <p class="at123">
+
+                A test is a procedure that exercises a behavior to determine if the behavior functions correctly.
+                There are several kinds of tests, like unit tests, integration tests, or end-to-end tests,
+                but all functional tests do the same basic thing: they try something and report PASS or FAIL.
+                <br>
+                Testing provides an empirical feedback loop for development. That is how testing keeps us safe.
+                With tests, we know when things break.  <br> Without tests, coding can be dangerous. We do not want to deploy
+                big old bugs!<br>
+
+                So, if we intend to spend time writing tests, how can we write good tests? There is a simple but
+                powerful pattern to follow: <b>Arrange-Act-Assert.</b>
+                <br>
+                The Pattern
+                Arrange-Act-Assert is a great way to structure test cases. It prescribes an order of operations:
+                <br>
+                Arrange inputs and targets. Arrange steps should set up the test case. Does the test require any objects
+                or special settings? Does it need to prep a database? Does it need to log into a web app? Handle all of
+                these operations at the start of the test.<br>
+                Act on the target behavior. Act steps should cover the main thing to be tested. This could be calling a
+                function or method, calling a REST API, or interacting with a web page. Keep actions focused on the
+                target behavior.<br>
+                Assert expected outcomes. Act steps should elicit some sort of response. Assert steps verify the
+                goodness or badness of that response.<br> Sometimes, assertions are as simple as checking numeric or string
+                values.<br>
+                Other times, they may require checking multiple facets of a system. Assertions will ultimately determine
+                if the test passes or fails.<br>
+                Behavior-Driven Development follows the Arrange-Act-Assert pattern by another name: Given-When-Then.
+                The Gherkin language uses Given-When-Then steps to specify behaviors in scenarios. Given-When-Then is
+                essentially the same formula as Arrange-Act-Assert.<br>
+
+                Every major programming language has at least one test framework. Frameworks like JUnit, NUnit,
+                Cucumber, and (my favorite) pytest enable <br>you,as the programmer, to automate tests, execute suites,
+                and report results.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="at22">
+
+    <div class="row">
+        <div class="at125">
+            <img src="images/aaa.png" class="altair">
+            <p class="article126">
+                Software testing is important because if there are any bugs or errors in the software, they can be
+                identified early and fixed before the software product is delivered. A properly tested software product
+                ensures dependability, security, and high performance, which leads to time savings, cost effectiveness,
+                and customer satisfaction.
+
+                It happens to be an integral part of the process. However, it involves a <br>huge cut off from the pocket.
+
+                Nevertheless, you need to keep in mind that the price owing to the failure of the software can
+                be really high.
+
+                Here are the top reasons why the testing of the software is really important:<br><br>
+
+                1. Helps in saving money<br>
+                The testing of software has a wide array of benefits. The cost-effectiveness of the project happens
+                to be one of the top reasons why companies go for software testing Services.
+                <br>
+                The testing of software comprises a bunch of projects. In case you find any bug in the early phases,
+                fixing them costs a reduced<br> amount of money.
+                Hence, it is a prerequisite that you should get the testing done in no time. As you hire quality
+                analysts or testers who have an ample amount of experience and have gone through technical education
+                for the projects, they are the investments and the project is going to reap the benefits.
+                <br><br>
+                2. Security<br>
+                It is another crucial point why software testing should not be taken into consideration.
+                <br>
+                It is considered to be the most vulnerable and sensitive part. There are a bunch of situations in
+                which the information and details of the users are stolen and they are used for the benefits.
+                <br>
+                It is considered to be the reason why people look for the well tested and reliable products.
+                <br>
+                As a specific product undergoes testing, the user can be ensured that they are going to receive a
+                reliable product. The personal <br>details of the user can be safe. Users can receive products that are
+                free from vulnerability with the aid of software testing.<br>
+                <br><br>
+                3.Quality of the product<br>
+                For ensuring that the specific product comes to life, it should work in accordance with the following.
+                <br>
+                Following the needs of the product is a prerequisite as it is helpful in getting the prerequisite results.
+                <br>
+                Products should be serving the user in one way or the other. It is a must that it is going to bring
+                the value, as per the promise.<br>
+
+                Hence, it should function in a complete manner for ensuring an effective customer experience. It is
+                also necessary to check the compatibility of the device.<br>
+
+                For instance, in case, you are planning to launch an application, it is a must to check the
+                compatibility of the same in a wide array of operating systems and devices.<br>
+                <br><br>
+                4. Satisfaction of the customer<br>
+                The primary objective of the owner of the products is offering the best satisfaction of the customers.
+                <br>
+                The reasons why it is necessary to opt for software testing is due to the fact that it offers the
+                prerequisite and perfect user experience.<br>
+
+                As you opt for the best project in the saturated project, you will be capable of earning the
+                reputation of reliable clients.<br>
+
+                Thus, you are going to reap long-term benefits by opting for software testing. Earning the trust of
+                the client is certainly not an easy <br>task, primarily in case the product is found to be functioning
+                and glitching every time or the other.<br>
+
+                You yourself have used a lot of products and you surely had several horrible experiences owing to
+                which you might have deleted the application.<br>
+
+                The market is really saturated in the present days.<br>
+
+                The first impression is really important and if you fail to give the same, users are going to find
+                another product which will accomplish<br> all the requirements.<br>
+                <br><br>
+                5. Enhancing the development process<br>
+                With the aid of Quality Assurance, you can find a wide array of scenarios and errors, for the
+                reproduction of the error.<br>
+
+                It is really simple and the developers need to fix the same in no time. In addition to this, software
+                testers should be working with the development team parallelly, which is useful in the acceleration of
+                the development procedure.<br>
+                <br><br>
+                6. Easy while adding new features<br>
+                The more interconnected and older the code, the more difficult it is to change. Tests counteract this
+                calcification tendency by allowing developers to confidently add new features. As a new developer,
+                changing older parts of your codebase can be terrifying, but with<br> tests, you’ll at least know if you’ve
+                broken anything important. This helps in making your software stand ahead in the market, and<br> beat the
+                competition.<br>
+                <br><br>
+                7. Determining the performance of the software<br>
+                If you find software or application that has low or reduced performance, you will find that it brings
+                your reputation down in the market.<br>
+
+                Users are not going to trust any people. There are chances that the reputation of your organization is
+                going to suffer.<br>
+                <br>
+                In accordance with the experts, it is not that important. However, in case, you introduce any software
+                in the market without software testing and after this, the performance of the software does not meet
+                the expectation or requirements of the clients, convincing people will be a hassle.
+                <br>
+                Thus, software testing is considered to be an easy option as it helps in the determination of the
+                performance of the software.
+
+
+        </div>
+    </div>
+</section>
+
+
+<footer class="same-old">
+    <p>COPYRIGHT @ AKSHAT JOGANI </p>
+</footer>
+</body>
+</html>

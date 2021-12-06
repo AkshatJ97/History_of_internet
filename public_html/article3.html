@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title> Article 3 </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/homelogo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="page1.html">ARPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">INTERNET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">BROWSER-WAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page4.html">END OF BROWSER-WAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page5.html">DOTCOM CRASH</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ARTICLES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="article1.html">Article 1</a>
+                            <a class="dropdown-item" href="article2.html">Article 2</a>
+                            <a class="dropdown-item" href="article3.html">Article 3</a>
+                            <a class="dropdown-item" href="article4.html">Article 4</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+<section id="at21">
+
+    <div class="row">
+        <div class="at122">
+            <img src="images/polymorphism.png" class="lawrence">
+            <p class="article123">
+                Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in
+                OOP occurs when a parent class reference is used to refer to a child class object.
+                Any Java object that can pass more than one IS-A test is considered to be polymorphic.<br>
+                In Java, all Java objects are polymorphic since any object will pass the IS-A test for their
+                own type and for the class Object.
+                It is important to know that the only possible way to access an object is through a reference variable.
+                A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.
+                The reference variable can be reassigned to other objects provided that it is not declared final.
+                The type of the reference variable would determine the methods that it can invoke on the object.
+                A reference variable can refer to any object of its declared type or any subtype of its declared type.
+                A reference variable can be declared as a class or interface type.<br>
+                Now, the Deer class is considered to be polymorphic since this has multiple inheritance. Following are true for the above examples:<br>
+                A Deer IS-A Animal<br>
+                A Deer IS-A Vegetarian<br>
+                A Deer IS-A Deer<br>
+                A Deer IS-A Object<br>
+                When we apply the reference variable facts to a Deer object reference, the following declarations are legal −<br>
+                Example:<br>
+                Deer d = new Deer();<br>
+                Animal a = d;<br>
+                Vegetarian v = d;<br>
+                Object o = d;<br>
+                All the reference variables d, a, v, o refer to the same Deer object in the heap.
+
+
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="at22">
+
+    <div class="row">
+        <div class="at125">
+            <img src="images/inheritance.png" class="altair">
+            <p class="at126">
+
+                In object-oriented programming, inheritance is the mechanism of basing an object or class upon
+                another object (prototype-based inheritance) or class (class-based inheritance),
+                retaining a similar implementation. Also defined as deriving new classes (sub classes)
+                from existing ones such as super class or base class and then forming them into a hierarchy of classes.
+                <br><br>
+                In most class-based object-oriented languages, an object created through inheritance, a "child object",
+                acquires all the properties and behaviors of the "parent object" , with the exception of: constructors,
+                destructors, overloaded operators and friend functions of<br> the base class. Inheritance allows programmers
+                to create classes that are built upon existing classes,to specify a new implementation while
+                maintaining the same behaviors (realizing an interface), to reuse code and to independently extend
+                original software via public classes and interfaces. The relationships of objects or classes through
+                inheritance give rise to a directed acyclic graph.
+            <br><br>
+            Why do we use inheritance?<br>
+                Inheritance is very essential for expandability.<br>
+                Inheritance is used to declare characteristics of classes inheriting it,without giving its implementation.
+                After creating one super class<br> you can use its features to create several sub classes
+                that inherits some features from its parent class and have few additional features.
+                Inheritance enables code reusability and saves time.
+
+
+
+
+        </div>
+    </div>
+</section>
+<section id="at23">
+
+    <div class="row">
+        <div class="at125">
+            <img src="images/encapsulation.png" class="altair">
+            <p class="at126"><br>
+                Encapsulation is one of the fundamentals of OOP (object-oriented programming).
+                It refers to the bundling of data with the <br>methods that operate on that data.
+                Encapsulation is used to hide the values or state of a structured data object inside a class,
+                preventing unauthorized parties direct access to them.<br> Publicly accessible methods are generally
+                provided in the class (so-called getters and setters) to access the values, and other client classes
+                call these methods to retrieve and modify the values within the object.<br><br>
+                Encapsulation is a good idea for several reasons:<br>
+
+                The functionality is defined in one place and not in multiple places.<br>
+                It is defined in a logical place i.e the place where the data is kept.<br>
+                Data inside our object is not modified unexpectedly by external code in a completely different part of our program.<br>
+                When we use a method, we only need to know what result the method will produce we do not need to know
+                details about the object internals in order to use it. We could switch to using another object which
+                is completely different on the inside, and not have to change any code because both objects have the same interface.
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="at24">
+
+    <div class="row">
+        <div class="at125">
+            <img src="images/abstraction.PNG" class="altair">
+            <p class="at126"><br><br>
+                Abstraction is the concept of object-oriented programming that shows only essential attributes
+                and hides unnecessary<br> information. <br>
+                The main purpose of abstraction is hiding the unnecessary details
+                from the users. Abstraction is selecting data from a larger pool to show only relevant details of the
+                object to the user. It helps in reducing programming complexity and efforts. It is one of the most
+                important concepts of OOPs.<br>
+                For example, people do not think of a car as a set of thousands of individual parts .
+                Instead they see it as a well-defined object with its own unique behavior.
+                This abstraction allows people to use a car to drive without knowing the
+                complexity of the parts that form the car. They can ignore the details of how the
+                engine transmission, and braking systems work. Instead, they are free to utilize the object as a whole.
+                <br>
+                A powerful way to manage abstraction is through the use of hierarchical
+                classification. This allows us to layer the semantics of complex systems,
+                breaking them into more manageable pieces. From the outside, a car is a single object.
+                Once inside, you see that the car consists of several subsystems: steering, brakes,
+                sound system, seat belts, etc. In turn, each of these subsystems is made up of <br>smaller units.
+                <br>
+                The point is that we manage the complexity of the car (or any other complex system) through
+                the use of hierarchical abstractions.
+            </p>
+        </div>
+
+    </div>
+</section>
+<footer class="same-old">
+    <p>COPYRIGHT @ AKSHAT JOGANI </p>
+</footer>
+</body>
+</html>
