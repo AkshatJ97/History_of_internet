@@ -11,11 +11,18 @@ body{
     margin-left:auto;
 
 }
+.navbarDropdown{
+    margin-left: auto;
+    font-weight: 600;
+    float: left;
+}
+
 #nav-bar
 {
     position: sticky;
     top:0;
     z-index: 0;
+
 }
 .navbar
 {
@@ -32,14 +39,14 @@ body{
     padding: 0 15px;
 }
 .navbar-nav li a {
-    color: #fff! important;
+    color: #fff;
     font-weight: 600;
     float: right;
     text-align: left;
 
 }
 .fa-arrow-down{
-    color:#fff;
+    color:white;
     font-size: 30px !important;
 }
 .navbar-toggler{
@@ -216,7 +223,99 @@ body{
     color: #fff;
     padding-bottom: 20px;
 }
+.same-old {
+    font-size: x-small;
+    color: white;
+}
+/*article1*/
+.lawrence{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 40%;
+    height: 80%;
+}
+.at122{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.at123{
+    color: #fff;
+}
+
+#at21{
+    padding-bottom: 20px;
+}
+#at22{
+    padding-bottom: 20px;
+}
+#at23{
+    padding-bottom: 20px;
+}
+#at24{
+    padding-bottom: 20px;
+}
+#at25{
+    padding-bottom: 20px;
+}
+
+.altair{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.at125{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.at126{
+    color: #fff;
+    padding-bottom: 20px;
+}
 .same-old{
     font-size: x-small;
     color: white;
+}
+.article126{
+    margin-left: 690px;
+    color: white;
+    padding-bottom: 20px;
+}
+.article125 {
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.row-article125{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column-article125{
+    float: left;
+    margin-top: 8px;
+    flex:50%;
+}
+.column-article125 img{
+    width: 50%;
+    vertical-align:top;
+}
+.column-article126-para{
+    flex: 50%;
+    padding: 0 4px;
+    float: right;
+}
+.dropdown-item{
+    color: #0a0a0a!important;
+}
+.article123{
+    margin-left: 610px;
+    color: white;
+    padding-bottom: 20px;
 }
